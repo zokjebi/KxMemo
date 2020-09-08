@@ -13,6 +13,7 @@
 		0438353B250134BC00FFCE5D /* KxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04383539250134BC00FFCE5D /* KxMemo.xcdatamodeld */; };
 		0438353D250134BD00FFCE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0438353C250134BD00FFCE5D /* Assets.xcassets */; };
 		04383540250134BD00FFCE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0438353E250134BD00FFCE5D /* LaunchScreen.storyboard */; };
+		04B8BB602507D6DB00A79885 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BB5F2507D6DB00A79885 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0438353C250134BD00FFCE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0438353F250134BD00FFCE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04383541250134BD00FFCE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B8BB5F2507D6DB00A79885 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0438352F250134BC00FFCE5D /* KxMemo */ = {
 			isa = PBXGroup;
 			children = (
+				04B8BB5E2507D6AE00A79885 /* Model */,
 				04383530250134BC00FFCE5D /* AppDelegate.swift */,
 				04383532250134BC00FFCE5D /* SceneDelegate.swift */,
 				04383536250134BC00FFCE5D /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				04383539250134BC00FFCE5D /* KxMemo.xcdatamodeld */,
 			);
 			path = KxMemo;
+			sourceTree = "<group>";
+		};
+		04B8BB5E2507D6AE00A79885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04B8BB5F2507D6DB00A79885 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				0438353B250134BC00FFCE5D /* KxMemo.xcdatamodeld in Sources */,
 				04383531250134BC00FFCE5D /* AppDelegate.swift in Sources */,
 				04383533250134BC00FFCE5D /* SceneDelegate.swift in Sources */,
+				04B8BB602507D6DB00A79885 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
