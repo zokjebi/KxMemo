@@ -17,9 +17,29 @@ class MemoListTableViewController: UITableViewController {
         return f
     }()
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        //tableView.reloadData();
+        //print(#function)
+    }
+    
+    var token: NSObjectProtocol?
+    
+    // 소멸자
+    deinit {
+        if let token = token {
+            NotificationCenter.default.removeObserver(token)
+        }
+    }
+    
+    // ViewController 가 생성된 후 자동으로 호출되는 메소드 (초기화코드를 여기에다가 구현)
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        token = NotificationCenter.default.addObserver(forName: ComposeViewController.newMemodidInsert, object: nil, queue: OperationQueue.main) { [weak self] (noti) in self?.tableView.reloadData()
+        }
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

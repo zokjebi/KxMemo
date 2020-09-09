@@ -11,6 +11,7 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
     // 2020-09-03 zokjebi - Xcode11 에서 13 이하의 버전을 지원하기 위한 코드
     var window: UIWindow?
 
