@@ -13,6 +13,7 @@
 		0438353B250134BC00FFCE5D /* KxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04383539250134BC00FFCE5D /* KxMemo.xcdatamodeld */; };
 		0438353D250134BD00FFCE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0438353C250134BD00FFCE5D /* Assets.xcassets */; };
 		04383540250134BD00FFCE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0438353E250134BD00FFCE5D /* LaunchScreen.storyboard */; };
+		044F3940250920EF00DC0B3A /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F393F250920EF00DC0B3A /* ComposeViewController.swift */; };
 		04B8BB602507D6DB00A79885 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BB5F2507D6DB00A79885 /* Model.swift */; };
 		04B8BB622507DA1A00A79885 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BB612507DA1A00A79885 /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		0438353C250134BD00FFCE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0438353F250134BD00FFCE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04383541250134BD00FFCE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044F393F250920EF00DC0B3A /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		04B8BB5F2507D6DB00A79885 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		04B8BB612507DA1A00A79885 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 				04383541250134BD00FFCE5D /* Info.plist */,
 				04383539250134BC00FFCE5D /* KxMemo.xcdatamodeld */,
 				04B8BB612507DA1A00A79885 /* MemoListTableViewController.swift */,
+				044F393F250920EF00DC0B3A /* ComposeViewController.swift */,
 			);
 			path = KxMemo;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				0438353B250134BC00FFCE5D /* KxMemo.xcdatamodeld in Sources */,
 				04383531250134BC00FFCE5D /* AppDelegate.swift in Sources */,
 				04B8BB622507DA1A00A79885 /* MemoListTableViewController.swift in Sources */,
+				044F3940250920EF00DC0B3A /* ComposeViewController.swift in Sources */,
 				04383533250134BC00FFCE5D /* SceneDelegate.swift in Sources */,
 				04B8BB602507D6DB00A79885 /* Model.swift in Sources */,
 			);
