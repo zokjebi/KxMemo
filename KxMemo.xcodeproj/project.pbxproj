@@ -13,6 +13,7 @@
 		0438353B250134BC00FFCE5D /* KxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04383539250134BC00FFCE5D /* KxMemo.xcdatamodeld */; };
 		0438353D250134BD00FFCE5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0438353C250134BD00FFCE5D /* Assets.xcassets */; };
 		04383540250134BD00FFCE5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0438353E250134BD00FFCE5D /* LaunchScreen.storyboard */; };
+		0440FF0E250A794400FCB96F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440FF0D250A794400FCB96F /* DetailViewController.swift */; };
 		044F3940250920EF00DC0B3A /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F393F250920EF00DC0B3A /* ComposeViewController.swift */; };
 		044F3942250924C300DC0B3A /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F3941250924C300DC0B3A /* UIViewController+Alert.swift */; };
 		04B8BB602507D6DB00A79885 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BB5F2507D6DB00A79885 /* Model.swift */; };
@@ -28,6 +29,7 @@
 		0438353C250134BD00FFCE5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0438353F250134BD00FFCE5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04383541250134BD00FFCE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0440FF0D250A794400FCB96F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		044F393F250920EF00DC0B3A /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		044F3941250924C300DC0B3A /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+Alert.swift"; path = "Assets.xcassets/UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		04B8BB5F2507D6DB00A79885 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				04B8BB612507DA1A00A79885 /* MemoListTableViewController.swift */,
 				044F393F250920EF00DC0B3A /* ComposeViewController.swift */,
 				044F3941250924C300DC0B3A /* UIViewController+Alert.swift */,
+				0440FF0D250A794400FCB96F /* DetailViewController.swift */,
 			);
 			path = KxMemo;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				04383533250134BC00FFCE5D /* SceneDelegate.swift in Sources */,
 				04B8BB602507D6DB00A79885 /* Model.swift in Sources */,
 				044F3942250924C300DC0B3A /* UIViewController+Alert.swift in Sources */,
+				0440FF0E250A794400FCB96F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
