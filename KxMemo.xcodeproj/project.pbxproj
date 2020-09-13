@@ -16,6 +16,7 @@
 		0440FF0E250A794400FCB96F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440FF0D250A794400FCB96F /* DetailViewController.swift */; };
 		044F3940250920EF00DC0B3A /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F393F250920EF00DC0B3A /* ComposeViewController.swift */; };
 		044F3942250924C300DC0B3A /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F3941250924C300DC0B3A /* UIViewController+Alert.swift */; };
+		0495160A250DED000090D53C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04951609250DED000090D53C /* DataManager.swift */; };
 		04B8BB602507D6DB00A79885 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BB5F2507D6DB00A79885 /* Model.swift */; };
 		04B8BB622507DA1A00A79885 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B8BB612507DA1A00A79885 /* MemoListTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		0440FF0D250A794400FCB96F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		044F393F250920EF00DC0B3A /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		044F3941250924C300DC0B3A /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+Alert.swift"; path = "Assets.xcassets/UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		04951609250DED000090D53C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		04B8BB5F2507D6DB00A79885 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		04B8BB612507DA1A00A79885 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 		0438352F250134BC00FFCE5D /* KxMemo */ = {
 			isa = PBXGroup;
 			children = (
+				04951608250DECEA0090D53C /* Data */,
 				04B8BB5E2507D6AE00A79885 /* Model */,
 				04383530250134BC00FFCE5D /* AppDelegate.swift */,
 				04383532250134BC00FFCE5D /* SceneDelegate.swift */,
@@ -80,6 +83,14 @@
 				0440FF0D250A794400FCB96F /* DetailViewController.swift */,
 			);
 			path = KxMemo;
+			sourceTree = "<group>";
+		};
+		04951608250DECEA0090D53C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04951609250DED000090D53C /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		04B8BB5E2507D6AE00A79885 /* Model */ = {
@@ -168,6 +179,7 @@
 				04383533250134BC00FFCE5D /* SceneDelegate.swift in Sources */,
 				04B8BB602507D6DB00A79885 /* Model.swift in Sources */,
 				044F3942250924C300DC0B3A /* UIViewController+Alert.swift in Sources */,
+				0495160A250DED000090D53C /* DataManager.swift in Sources */,
 				0440FF0E250A794400FCB96F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
