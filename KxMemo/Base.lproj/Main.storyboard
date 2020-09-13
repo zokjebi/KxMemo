@@ -73,7 +73,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tZm-e3-JxJ">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="Uof-gL-jZD"/>
+                                    <barButtonItem systemItem="compose" id="Uof-gL-jZD">
+                                        <connections>
+                                            <segue destination="QhT-p5-WO3" kind="presentation" id="4CY-tu-H8L"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nnp-nT-KvP">
@@ -137,6 +141,9 @@
                         <viewLayoutGuide key="safeArea" id="t68-vf-4Nm"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="h0A-cL-myE"/>
+                    <connections>
+                        <outlet property="MemoTableView" destination="nnp-nT-KvP" id="bpP-tM-dmc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBG-Ae-XK3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -223,4 +230,7 @@
             <point key="canvasLocation" x="857.97101449275374" y="-511.60714285714283"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="4CY-tu-H8L"/>
+    </inferredMetricsTieBreakers>
 </document>

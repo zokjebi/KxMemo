@@ -12,6 +12,8 @@ class DetailViewController: UIViewController {
 
     var memo: Memo?
     
+    @IBOutlet weak var MemoTableView: UITableView!
+    
     let formatter: DateFormatter = {
         let f = DateFormatter()
         f.dateStyle = .long
@@ -20,10 +22,25 @@ class DetailViewController: UIViewController {
         return f
     }()
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination.children.first as? ComposeViewController {
+            vc.editTarget = memo
+            
+        }
+    }
+    
+    var token: NSObjectProtocol?
+    
+    deinit {
+        if let token = token {
+            NotificationCenter.default.removeObserver(token)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        token = NotificationCenter.default.addObserver(forName: ComposeViewController.memoDidChange, object: nil, queue: OperationQueue.main, using: { [weak self] (noti) in self?.MemoTableView.reloadData() })
     }
     
 
